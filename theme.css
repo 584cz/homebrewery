@@ -1,0 +1,98 @@
+/* ==========================================================
+   Smelly Theme v1 na Homebrew
+by 584
+   ========================================================== */
+
+.page{
+  background:#FCFCFA;
+  color:#2F2F2F;
+  font-family:Inter, "Segoe UI", Arial, sans-serif;
+}
+
+.page h1,
+.page h2,
+.page h3,
+.page h4,
+.page h5{
+  font-family:Inter, "Segoe UI", Arial, sans-serif;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:#444;
+  border:none;
+}
+
+.page h5{
+  margin-bottom:.3em;
+}
+
+
+.page table{
+  font-size:.92em;
+  line-height:1.35;
+}
+
+.page th{
+  background:#ECECEC;
+  color:#444;
+  font-weight:700;
+}
+
+.page td{
+  background:#FFF;
+  padding:7px;
+}
+
+.page .classTable{
+  background:#FCFCFC;
+  border:1px solid #BEBEBE;
+  border-radius:8px;
+  border-image:none;
+  box-shadow:0 2px 8px rgba(0,0,0,.08);
+  padding:14px;
+}
+
+.page .classTable h5{
+  margin:0 0 10px;
+  font-family:ScalySansSmallCaps;
+  letter-spacing:.08em;
+  color:#3D3D3D;
+  border-bottom:1px solid #D5D5D5;
+  padding-bottom:6px;
+}
+
+.page .classTable table{
+  margin-bottom:0;
+}
+
+
+.page .note{
+  background:#FCFCFC;
+  border:1px solid #BEBEBE;
+  border-radius:8px;
+  border-image:none;
+  box-shadow:0 2px 8px rgba(0,0,0,.08);
+  padding:12px 16px;
+  color:#333;
+}
+
+.page .note h5{
+  margin:0 0 8px;
+  color:#444;
+  border-bottom:1px solid #D5D5D5;
+  padding-bottom:5px;
+}
+/*  https://gazook89.github.io/class-tabler/ */
+.page .classTable.frame {
+    border-image-source: url(https://cdn.discordapp.com/attachments/1446217918172893186/1535341250138349649/frame_real.png?ex=6a776977&is=6a7617f7&hm=382d3e2ae24b6208dfc00408ed2c611e3c12fb34232f7e3dfc1f102fa6cf5a2e&);  /* direct link to image on image host */
+    background-color: #FFF; /* match to "inside" hex code */
+    color: #000;   /* text color */
+    & table tbody tr:nth-child(odd) td {
+        background-color: #ececec;  /* changes row highlights */
+    }
+}
+
+.page:nth-child(odd)::after,
+.page:nth-child(even)::after {
+  background-image: url(...);
+}
