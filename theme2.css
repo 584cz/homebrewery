@@ -1,0 +1,211 @@
+/* ==========================================================
+   Smelly Theme v2 na Homebrew
+by 584
+https://imgur.com/a/homebrewery-stains-SKmRN
+https://watercolors.giantsoup.com/genesys/
+https://www.brusheezy.com/brushes/2772-watercolor-splatters
+   ========================================================== */
+
+.page{
+  background:#FCFCFA;
+  color:#2F2F2F;
+  font-family:Inter, "Segoe UI", Arial, sans-serif;
+}
+
+.page h1,
+.page h2,
+.page h3,
+.page h4,
+.page h5{
+  font-family:Inter, "Segoe UI", Arial, sans-serif;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:#444;
+  border:none;
+}
+
+.page .spell-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.page .spell-title {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.page .spell-date {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  font-size: 12px;
+  color: #444;
+  text-align: right;
+
+  padding: 4px 10px;
+  background: rgba(252, 252, 250, 0.92);
+  border: 1px solid rgba(88, 69, 132, 0.35);
+  border-radius: 999px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.12);
+
+}
+
+
+.page h5{
+  margin-bottom:.3em;
+}
+
+
+.page table{
+  font-size:1em;
+  line-height:1.35;
+}
+
+.page th{
+  background:#cecece;
+  color:#444;
+  font-weight:700;
+}
+
+.page td{
+  background:#FFF;
+  padding:7px;
+}
+
+.page .classTable{
+  background:#FCFCFC;
+  border:1px solid #BEBEBE;
+  border-radius:8px;
+  border-image:none;
+  box-shadow:0 2px 8px rgba(0,0,0,.08);
+  padding:14px;
+}
+
+.page .classTable h5{
+  margin:0 0 10px;
+  font-family:ScalySansSmallCaps;
+  letter-spacing:.08em;
+  color:#3D3D3D;
+  border-bottom:1px solid #D5D5D5;
+  padding-bottom:6px;
+}
+
+.page .classTable table{
+  margin-bottom:0;
+}
+
+
+.page .note{
+  background:#FCFCFC;
+  border:1px solid #BEBEBE;
+  border-radius:8px;
+  border-image:none;
+  box-shadow:0 2px 8px rgba(0,0,0,.08);
+  padding:12px 16px;
+  color:#333;
+}
+
+.page .note h5{
+  margin:0 0 8px;
+  color:#444;
+  border-bottom:1px solid #D5D5D5;
+  padding-bottom:5px;
+}
+/*  https://gazook89.github.io/class-tabler/ */
+.page .classTable.frame {
+    border-image-source: url(https://raw.githubusercontent.com/584cz/homebrewery/refs/heads/main/frame_real.png);  /* direct link to image on image host */
+    background-color: #FFF; /* match to "inside" hex code */
+    color: #000;   /* text color */
+    & table tbody tr:nth-child(odd) td {
+        background-color: #ececec;  /* changes row highlights */
+    }
+}
+
+.page:nth-child(odd)::after,
+.page:nth-child(even)::after {
+  background-image: url(...);
+}
+
+
+.page .note {
+	font-size: 14px;
+}
+
+
+/* ---------- TABULKY UPRAVA ---------- */
+
+.page .classTable.frame .spellTable{
+  width:100%;
+  margin:0;
+  border-collapse:collapse;
+  font-size:1em;
+  line-height:1.2;
+  table-layout:fixed;
+}
+
+.page .classTable.frame .spellTable th{
+  background:#cecece;
+  color:#444;
+  font-weight:700;
+  padding:6px 7px;
+  text-align:center;
+}
+
+.page .classTable.frame .spellTable td{
+  background:#FFF;
+  padding:7px;
+  vertical-align:middle;
+}
+
+.page .classTable.frame .spellTable tbody tr:nth-child(odd) td{
+  background:#ececec;
+}
+
+/* Šířky sloupců */
+
+.page .classTable.frame .spellTable th:nth-child(1),
+.page .classTable.frame .spellTable td:nth-child(1){
+  width:13%;
+  text-align:left;
+}
+
+.page .classTable.frame .spellTable th:nth-child(2),
+.page .classTable.frame .spellTable td:nth-child(2){
+  width:15%;
+  text-align:center;
+}
+
+.page .classTable.frame .spellTable th:nth-child(3),
+.page .classTable.frame .spellTable td:nth-child(3){
+  width:12%;
+  text-align:center;
+}
+
+.page .classTable.frame .spellTable th:nth-child(4),
+.page .classTable.frame .spellTable td:nth-child(4){
+  width:14%;
+  text-align:center;
+}
+
+.page .classTable.frame .spellTable th:nth-child(5),
+.page .classTable.frame .spellTable td:nth-child(5){
+  width:14%;
+  text-align:center;
+}
+
+.page .classTable.frame .spellTable th:nth-child(6),
+.page .classTable.frame .spellTable td:nth-child(6){
+  width:14%;
+  text-align:left;
+}
+
+.page .classTable.frame .spellTable th:nth-child(7),
+.page .classTable.frame .spellTable td:nth-child(7){
+  width:10%;
+  text-align:left;
+}
